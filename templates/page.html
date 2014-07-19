@@ -29,4 +29,12 @@
             {% endif %}
         </div>
     </section>
+
+    {% if page.sub_pages %}
+    <!-- todo: apply styles here with nice bootstrap thingy  -->
+        <section>
+            {% include "includes/hierarchy.html" %}
+        </section>
+    {% endif %}
+
 {% endblock %}
