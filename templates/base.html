@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     {% if FAVICON %}
     <link href="{{ SITEURL }}/{{ FAVICON }}" rel="icon">
     {% endif %}
@@ -156,6 +156,14 @@
         <!-- /.navbar-collapse -->
     </div>
 </div> <!-- /.navbar -->
+
+<!-- Page header with MHH Logo -->
+<div class="page-header">
+  <a href="http://mh-hannover.de"><img src='{{ SITEURL }}/mhh.png' alt="MHH - Medizinische Hochschule Hannover (Logo)" style="margin-bottom:10px;"></a>
+  <img src="{{ SITEURL }}/vianna_globe_small.png" alt="Globus mit verschiedenen Symbolbildern aus der Forschung" style="float:right;">
+  {% block header %}
+  {% endblock %}
+</div>
 
 <div class="container">
     <div class="row">
