@@ -1,0 +1,13 @@
+{% if page %}
+    <ul>
+        {% for p in page recursive %}
+            <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+            {% if p.has_children %}
+                <ul>
+                    {{ loop(p.sub_pages.values()) }}
+                </ul>
+            {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}

@@ -1,0 +1,12 @@
+{% if page and page.sub_pages %}
+    <section>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <h4><i class="icon-bookmark icon-large"></i>Content</h4>
+            </li>
+            <!-- Show hierarchy of sub_pages -->
+            {% include "includes/hierarchy.html" %}
+            <!-- ./hierarchy -->
+        </ul>
+    </section>
+{% endif %}
