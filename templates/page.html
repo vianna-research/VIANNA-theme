@@ -6,6 +6,7 @@
     {% if DISPLAY_BREADCRUMBS %}
         {% if page.parent %}
             <ol class="breadcrumb">
+                <li><a href="{{ SITEURL }}" title="{{ SITENAME }}"><i class="fa fa-home fa-lg"></i></a></li>
                 {% for url, title in page.breadcrumps %}
                     <li><a href="{{ SITEURL }}/{{ url }}">{{ title }}</a></li>
                 {% endfor %}
