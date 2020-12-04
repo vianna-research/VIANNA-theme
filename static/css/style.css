@@ -106,11 +106,11 @@ a, a:hover {
 }
 
 figure.floatright, .align-right {
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 figure.floatleft, .align-left {
-    margin-right: 3em;
+    margin-right: 1em;
 }
 
 figure.floatcenter, .align-center {
