@@ -84,6 +84,7 @@ a, a:hover {
 .entry-content img {
     max-width: 100%;
     height: auto;
+    margin: 2em;
 }
 
 .entry-content figcaption, .caption {
