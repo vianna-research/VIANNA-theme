@@ -107,11 +107,11 @@ a, a:hover {
 }
 
 figure.floatright, .align-right {
-    margin-left: 4px;
+    margin-left: 3em;
 }
 
 figure.floatleft, .align-left {
-    margin-right: 4px;
+    margin-right: 3em;
 }
 
 figure.floatcenter, .align-center {
